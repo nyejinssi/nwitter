@@ -8,8 +8,8 @@ const Profile = ({ userObj, refreshUser }) => {
 
   const onLogOutClick = () => {
     authService.signOut();
-      navigate('/Home');
-    };
+    navigate('/Home');
+  };
 
   const onChange = (event) => {
     const {
